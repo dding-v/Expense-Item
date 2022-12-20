@@ -25,7 +25,7 @@ const ExpenseForm = (props) => {
     // form 작성
     const expenseData = {
       title: enteredTitle,
-      amnount: enteredAmount,
+      amount: enteredAmount,
       date: new Date(enteredDate),
     };
 
