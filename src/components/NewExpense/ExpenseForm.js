@@ -25,14 +25,14 @@ const ExpenseForm = (props) => {
     // form 작성
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
 
-    props.onSaveExpensaData(expenseData)
-    setEnteredTitle('')
-    setEnteredAmount('')
-    setEnteredDate('')
+    props.onSaveExpensaData(expenseData);
+    setEnteredTitle("");
+    setEnteredAmount("");
+    setEnteredDate("");
   };
 
   return (
@@ -68,6 +68,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button type="button" onClick={props.onCancel}> Cancel </button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
