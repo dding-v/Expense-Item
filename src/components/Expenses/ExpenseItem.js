@@ -8,9 +8,13 @@ const ExpenseItem = (props) => {
     <li>
       <Card className="expense-item">
         <ExpenseData date={props.date} />
-        <div className="expense-item__description">
-          <h2>{props.title}</h2>
-          <div className="expense-item__price">${props.amount}</div>
+        <div className="expense-bg">
+          <h2>
+            {props.title}
+            <div className="expense-item__description">
+              <div className="expense-item__price">{props.amount} 원</div>
+            </div>
+          </h2>
         </div>
       </Card>
     </li>

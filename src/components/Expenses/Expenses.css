@@ -1,7 +1,25 @@
 .expenses {
     padding: 1rem;
-    background-color: rgb(31, 31, 31);
-    margin: 2rem auto;
-    width: 50rem;
+    background-color: #FCDB87;
+    width: 33rem;
     max-width: 95%;
+    border: 2px solid black;
+    margin-left: 1rem;
+    box-shadow: 5px 5px 0px ;
+}
+
+.expenses_bg {
+    padding: 1px;
+    border-radius: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    background-color: #BEB197;
+    
+}
+
+.expenses_bg_two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
 }

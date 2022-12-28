@@ -1,0 +1,21 @@
+.app_outer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+}
+
+.app_inner {
+    flex: 1;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    margin: 0px auto;
+    vertical-align: middle;
+    padding: 1px;
+    width: 1040px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}

@@ -1,9 +1,17 @@
 .chart {
     padding: 1rem;
+    margin: 1rem;
+
     border-radius: 12px;
-    background-color: #f8dfff;
+    background-color: #FCDB87;
     text-align: center;
     display: flex;
-    justify-content: space-around;
-    height: 10rem;
+
+    width: 10rem;
+    height: 100%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+
+    box-shadow: 5px 5px 0px ;
+
   }

@@ -1,26 +1,27 @@
 .chart-bar {
-    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
+    flex: 0 0 100%;
   }
   
-  .chart-bar__inner {
-    height: 100%;
-    width: 100%;
-    border: 1px solid #313131;
-    border-radius: 12px;
-    background-color: #c3b4f3;
-    overflow: hidden;
+  .chart-bar__inner {  
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 1.1rem;
+    width: 100%;
+    flex: 1;
+    border-radius: 12px;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: 2px solid black;
+    overflow: hidden;
   }
   
   .chart-bar__fill {
-    background-color: #4826b9;
+    background-color: #707f4a;
     width: 100%;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in ;
+
   }
   
   .chart-bar__label {
